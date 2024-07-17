@@ -17,7 +17,8 @@
 
 ### Project : TEMPERATURE AND HUMIDITY MONITORING WITH DHT SENSOR
 
-![task 2](https://github.com/user-attachments/assets/7a3a04a5-06d5-473c-9218-cb38194c4228)
+![image](https://github.com/user-attachments/assets/6d989489-1d1c-44c9-87e7-c35acc62d7df)
+
 
 
 
