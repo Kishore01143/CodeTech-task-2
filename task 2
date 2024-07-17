@@ -6,7 +6,6 @@ Interface a DHT sensor with an Arduino to measure temperature and humidity.
 */
 
 
-
 #include <dht.h>  // Include library
 #define outPin 8  // Defines pin number to which the sensor is connected
 dht DHT;      // Creates a DHT object
@@ -17,12 +16,12 @@ void loop() {
   int readData = DHT.read11(outPin);
   float t = DHT.temperature;  // Read temperature
   float h = DHT.humidity;   // Read humidity
-  Serial.print("Temperature = ");
+  Serial.print("temperature = ");
   Serial.print(t);
-  Serial.print("°C | ");
+  Serial.print("°C");
   Serial.print((t*9.0)/5.0+32.0); // Convert celsius to fahrenheit
-  Serial.println("°F ");
-  Serial.print("Humidity = ");
+  Serial.println("°F");
+  Serial.print("humidity = ");
   Serial.print(h);
   Serial.println("% ");
   Serial.println("");
