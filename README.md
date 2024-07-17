@@ -1,4 +1,4 @@
-# CodeTech-task-2
+# CodTech-task-2
 
 **Name:** M KISHORE KUMAR
 
